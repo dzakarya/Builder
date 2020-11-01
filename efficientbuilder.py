@@ -62,7 +62,7 @@ img_augmentation = Sequential(
     name="img_augmentation",
 )
 
-lr_schedule = ExponentialDecay(initial_learning_rate=0.007,
+lr_schedule = ExponentialDecay(initial_learning_rate=0.005,
                                decay_steps=10000,
                                decay_rate=0.9)
 
